@@ -1,7 +1,7 @@
 [tool.poetry]
 name = "confman"
 version = "0.1.0"
-description = ""
+description = "Manage multiple and hierarchical configurations"
 authors = ["Giuseppe Di Bona <giusedb@gmail.com>"]
 readme = "README.md"
 
