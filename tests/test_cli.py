@@ -1,6 +1,6 @@
 import click
 
-from confman.plug_cli import add_config_cli
+from pyconfman.plug_cli import add_config_cli
 
 
 def test_command():

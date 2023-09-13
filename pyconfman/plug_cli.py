@@ -5,7 +5,7 @@ import sys
 import click
 from click import style
 
-from confman.manager import DEFAULT_CONF_DIR, Config
+from pyconfman.manager import DEFAULT_CONF_DIR, Config
 
 
 def get_config(force=False) -> 'Config':

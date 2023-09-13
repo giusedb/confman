@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "confman"
+name = "pyconfman"
 version = "0.1.0"
 description = "Manage multiple and hierarchical configurations"
 authors = ["Giuseppe Di Bona <giusedb@gmail.com>"]

@@ -14,12 +14,12 @@ into your CLI application.
 ### install the package on your environment
 using pip:
 ```shell
-$ pip install confman
+$ pip install pyconfman
 ```
 
 ### Incorporate it into your application
 If you use `click` library to manage your application CLI
-there is already, `confman` comes along with a simple function to add
+there is already, `pyconfman` comes along with a simple function to add
 the config group to your application's `cli.group`. 
 
 For example, if your app has a command such as
@@ -34,15 +34,18 @@ if __name__ == "__main__":
 ```
 
 you can incorporate the `confman` as following:
+
 ```python
 import click
-import confman
+import pyconfman
 
-@confman.cli
+
+@pyconfman.cli
 @click.group()
 def cli():
     """My amazing application"""
-    
+
+
 if __name__ == "__main__":
     cli()
 ```

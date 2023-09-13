@@ -2,7 +2,7 @@ import json
 import os
 import pytest
 
-from confman.manager import Config
+from pyconfman.manager import Config
 CONF_DIR = None
 
 
