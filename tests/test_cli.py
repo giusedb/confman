@@ -8,7 +8,7 @@ def test_command():
     def my_cli():
         """ciao"""
     assert my_cli.name == 'my-cli'
-    add_config_cli(my_cli)
+    my_cli = add_config_cli(my_cli)
 
 
 if __name__ == '__main__':

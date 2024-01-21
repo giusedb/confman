@@ -49,7 +49,16 @@ def cli():
 if __name__ == "__main__":
     cli()
 ```
-This adds the configuration manager to your command line interface
+This adds the configuration manager to your command line interface. By default all configuration are stored into 
+`~/.config/<your appication name>` or you can specify where to store it passing the `config_dir` argument to the 
+decorator
+
+```python
+@pyconfman.cli(config_dir="My app's config directory")
+@click.group()
+def cli():
+    ...
+```
 
 ## Usage and command line
 
